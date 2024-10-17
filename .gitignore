@@ -1,0 +1,32 @@
+# Ignore Python cache (for Python projects)
+__pycache__/
+*.py[cod]
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts and system files
+build/
+dist/
+.DS_Store
+*.exe
+*.out
+*.log
+
+# Ignore temporary files created by editors
+*.swp
+.vscode/
+*.tmp
+
+# Virtual environment folder (exclude this)
+env/
+venv/
+text_extract_env/
+# If using pipenv
+Pipfile.lock
+
+# MacOS system file
+.DS_Store
+
+# Ignore Jupyter notebooks checkpoints (if using Jupyter)
+.ipynb_checkpoints/
